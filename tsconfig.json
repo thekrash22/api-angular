@@ -22,7 +22,12 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@env/_file":["src/environments/environments.ts"],
+      "@services/*":["src/app/services/*"],
+      "@interfaces/*": ["src/app/interface/*"],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
